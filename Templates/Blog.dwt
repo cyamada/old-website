@@ -1,0 +1,70 @@
+<html>
+
+<head>
+	<link href="../css/index.css" rel="stylesheet" type="text/css" media="screen">
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div id="outer">
+<div id="wrapper">
+	
+    <div id="logo">
+    	<img src="../images/Logo.jpg"/>
+    </div>
+
+	<div id="media-icons">
+    	<ul>
+        	<li><a href="http://www.linkedin.com/pub/connor-yamada/43/489/b14"><img src="../images/icons/linkedin_32.png" /></a></li>
+            <li><a href="http://www.youtube.com/iconicfx"><img src="../images/icons/Youtube_32x32.png" /></a></li>
+            <li><a href="https://twitter.com/#!/connoryamada"><img src="../images/icons/Twitter-icon.png" /></a></li>
+            <li><a href="https://www.facebook.com/cayamada"><img src="../images/icons/FaceBook_32x32.png" /></a></li>
+            <li><a href="https://vimeo.com/cayamada"><img src="../images/icons/vimeo_32.png" /></a></li>
+            <li><a href="http://www.flickr.com/photos/ckyamada"><img src="../images/icons/Flickr-32.png" /></a></li>  
+      </ul>
+    </div>
+    
+    <div id="topnav">
+    	<ul>
+        	<li><a href="../index.html">HOME</a></li>
+            <li><a href="../.html">RESUME</a></li>
+            <li><a href="../projects1.html">PROJECTS</a></li>
+            <li><a href="../blog/July-11-2012.html">BLOG</a></li>
+            <li><a href="../photography.html">PHOTOGRAPHY</a></li>
+            <li><a href="../cinematography.html">CINEMATOGRAPHY</a></li>
+            <li><a href="contact.php">CONTACT</a></li>
+        </ul>
+    </div>
+        
+    <div id="content"><!-- TemplateBeginEditable name="content" -->
+
+        
+    <!-- TemplateEndEditable --></div>
+    
+    <div id="rightnav"><!-- TemplateBeginEditable name="LatestNews" -->
+      
+      <p class="date">July 11, 2012</p>
+      
+      <h3>Learning Python!</h3>
+      
+      <p>Twitter key phrase finder</p>
+      
+      <p class="date">July 13, 2012</p>
+      
+      <h3>Website Revamp</h3>
+      
+      <p>lorem ipLorem ipsum dolor sit amet, consectetur adipiscing elit. In egestas congue turpis eu porta. Duis lacinia elementum pulvinar. Ut euismod lobortis ante, nec venenatis risus elementum ac.</p>
+
+    <!-- TemplateEndEditable --></div>
+
+	<div id="footer">
+   	  <p class="footer-text">© 2012 Connor Yamada</p>
+    </div>
+</div>
+</div>
+
+    
+</body>
+</html>

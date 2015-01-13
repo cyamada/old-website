@@ -1,0 +1,145 @@
+<html>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Projects</title>
+<!-- TemplateEndEditable -->
+<head>
+	<link rel="Shortcut icon" href="images/favIcon.ico" />
+	<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="js/s3slider/s3Slider.js"></script>
+	<script type="text/javascript">
+
+$(document).ready(function() {
+
+   $('#s3slider').s3Slider({
+
+      timeOut: 3000
+
+   });
+
+}); 
+
+</script>
+  
+    <script type="text/javascript">
+function MM_jumpMenuGo(objId,targ,restore){ //v9.0
+  var selObj = null;  with (document) { 
+  if (getElementById) selObj = getElementById(objId);
+  if (selObj) eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0; }
+}
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+	</script>
+    
+    <script type="text/javascript">
+		if (document.images) {
+    		img1 = new Image();
+    		img1.src = "images/s3slider/btBot.jpg";
+    		img2 = new Image();
+    		img2.src = "images/s3slider/controller.jpg";
+			img3 = new Image();
+    		img3.src = "images/s3slider/raspPi.jpg";
+		}
+	</script>
+
+    
+    <link href="css/index.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/s3slider.css" rel="stylesheet" type="text/css" media="screen">
+	
+    
+    
+    
+
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div id="outer">
+<div id="wrapper">
+	
+    <div id="logo"> <a href="index.html"><img src="images/Logo.jpg" /></a>
+    </div> <!-- end .logo -->
+
+	<div id="media-icons">
+    	<ul>
+        	<li><a href="http://www.linkedin.com/pub/connor-yamada/43/489/b14"><img src="images/icons/linkedin_32.png" /></a></li>
+            <li><a href="http://www.youtube.com/iconicfx"><img src="images/icons/Youtube_32x32.png" /></a></li>
+            <li><a href="https://twitter.com/#!/connoryamada"><img src="images/icons/Twitter-icon.png" /></a></li>
+            <li><a href="https://www.facebook.com/cayamada"><img src="images/icons/FaceBook_32x32.png" /></a></li>
+            <li><a href="https://vimeo.com/cayamada"><img src="images/icons/vimeo_32.png" /></a></li>  
+            <li><a href="http://www.flickr.com/photos/ckyamada"><img src="images/icons/Flickr-32.png" /></a></li>
+            <li><a href="https://github.com/cyamada"><img src="images/icons/github.ico" /></a></li>
+      </ul>
+    </div> <!-- end .media-icons -->
+    
+    <div id="topnav">
+    	<ul>
+        	<li><a href="index.html">HOME</a></li>
+            <li><a href="resume.html">ABOUT</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="blog/July-31-2012.html">BLOG</a></li>
+            <li><a href="photography.html">PHOTOGRAPHY</a></li>
+            <li><a href="cinematography.html">CINEMATOGRAPHY</a></li>
+            <li><a href="contact.php">CONTACT</a></li>
+        </ul>
+    </div> <!-- end .topnav -->
+  
+	<div id="s3slider">
+    	
+       <ul id="s3sliderContent"> 
+        
+	       	<li class="s3sliderImage">
+           	  <img src="images/s3slider/btBot.jpg" />
+                <span><a href="Projects/Bluetooth.html">Bluetooth Modules</a></span>
+			</li>
+            
+            <li class="s3sliderImage">
+           	  <img src="images/s3slider/controller.jpg" />
+              <span><a href="Projects/controllerV1.html">Controller v1</a></span>
+			</li>
+            
+            <li class="s3sliderImage">
+           	  <img src="images/s3slider/raspPi.jpg" />
+              <span><a href="404.html">Raspberry Pi</a></span>
+			</li>
+            
+      </ul>   
+      
+	<div class="clear s3sliderImage"></div>
+        
+    </div> <!-- end .s3slider -->
+    
+    <div id="content-fullwidth">
+
+      <h1>PROJECTS</h1>
+       <center>
+       
+       <div id="dropdown">
+        <form id="form1" name="form1" method="post" action="">
+          <select name="jumpMenu" class="content" id="jumpMenu">
+            <option value="Projects/desktopbuild.html" selected="selected">My Desktop</option>
+            <option value="Projects/Bluetooth.html">Bluetooth Modules</option>
+            <option value="Projects/controllerV1.html">Controller V1</option>
+            <option value="Projects/startHere.html">My First Robot (PICAXE)</option>
+            <option value="Projects/startHereArduino.html">My First Robot (Arduino)</option>
+            <option value="Projects/spektrum.html">Spektrum R/C Robot</option>
+          </select>
+          <input type="button" name="go_button" id= "go_button" value="Go" onClick="MM_jumpMenuGo('jumpMenu','parent',0)" />
+        </form>
+        </div> <!-- end dropdown -->
+      </center>
+ 	</div> <!-- end content-fullwidth -->
+
+	<div id="footer">
+    	<p class="footer-text">&copy; 2012 Connor Yamada</p>
+    </div> <!-- end .footer -->
+</div> <!-- end .wrapper -->
+</div> <!-- end .outer -->
+
+    
+</body>
+</html>

@@ -1,0 +1,87 @@
+<html>
+
+<title>July 11th, 2012</title>
+<head>
+	<link href="../css/index.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="../css/blog.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="Shortcut icon" href="../images/favIcon.ico" />
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div id="outer">
+<div id="wrapper">
+	
+    <div id="logo"> <a href="../index.html"><img src="../images/Logo.jpg"/></a>
+    </div>
+
+	<div id="media-icons">
+    	<ul>
+        	<li><a href="http://www.linkedin.com/pub/connor-yamada/43/489/b14"><img src="../images/icons/linkedin_32.png" /></a></li>
+            <li><a href="http://www.youtube.com/iconicfx"><img src="../images/icons/Youtube_32x32.png" /></a></li>
+            <li><a href="https://twitter.com/#!/connoryamada"><img src="../images/icons/Twitter-icon.png" /></a></li>
+            <li><a href="https://www.facebook.com/cayamada"><img src="../images/icons/FaceBook_32x32.png" /></a></li>
+            <li><a href="https://vimeo.com/cayamada"><img src="../images/icons/vimeo_32.png" /></a></li>
+            <li><a href="http://www.flickr.com/photos/ckyamada"><img src="../images/icons/Flickr-32.png" /></a></li> 
+            <li><a href="https://github.com/cyamada"><img src="images/icons/github.ico" /></a></li>
+      </ul>
+    </div>
+    
+    <div id="topnav">
+    	<ul>
+        	<li><a href="../index.html">HOME</a></li>
+            <li><a href="../resume.html">ABOUT</a></li>
+            <li><a href="../projects.html">PROJECTS</a></li>
+            <li><a href="July-31-2012.html">BLOG</a></li>
+            <li><a href="../photography.html">PHOTOGRAPHY</a></li>
+            <li><a href="../cinematography.html">CINEMATOGRAPHY</a></li>
+            <li><a href="../contact.php">CONTACT</a></li>
+        </ul>
+    </div>
+        
+    <div id="content"><!-- TemplateBeginEditable name="content" -->
+    	<h1 class="header">Learning Python</h1>
+    <h2 class="dateP">July 11, 2012</h2>
+    <p class="para">First blog post! I thought I'd throw in a blog section to start posting about smaller projects that I've started working that wouldn't necessarly warrant a super detailed write-up. I'll also have a chance to work on my HTML, which will hopefully allow me to revamp the site at some point.</p>
+    <p class="para">This first post will be dedicated to my recent work with Python and github, both of which I have just started learning. The Python script I wrote is very simple and doesn't have a lot of safety features built in, which is fine for me as it was just an intro.The syntax of Python is still somewhat foreign to me- in general most of the scripting nuances- as the only extensive coding I've done has been for the Arduino and centered around physical interaction with the environment. Even I know the code is crap. This is just an excuse for me to do something a little more productive that sit around and watch youtube videos.</p>
+    <p class="para">The goal of this program was to create a parser for Twitter feeds that could identify whether or not a keyphrase, given by the user, was present. It doesn't tell you how many times it found the keyphrase, and I'm pretty sure capitalization matters but it works for its most basic task.</p>
+    <p class="para">The program is split into three parts: the first determines the URL for the RSS feed of the desired twitter account. The second gathers the keyphrases from either a text file or as inputted by the user. The final searches through the xml data and returns whether or not something has been found.</p>
+    <p class="para">The only library used in this project is urllib2, which allows for the opening of URLs</p>
+    <p><script src="https://gist.github.com/3100368.js?file=gistfile1.py"></script></p>
+    <p class="para">The method of appending the Twitter username to the end of the given URL just happens to be an easy way to consistantly generate RSS feeds.</p>
+    <p><script src="https://gist.github.com/3100377.js?file=gistfile1.py"></script></p>
+    <p class="para">The second part of my code is also fairly straightforward. The user has the option of typing keywords in one at a time until they type 'exit', or by placing a text document with a keyphrase on each line in the same directory as the python script (you'll notice there script does not compensate for spacing or capitalization differences).</p>
+    <p><script src="https://gist.github.com/3100380.js?file=gistfile1.py"></script></p>	
+    <p class="para">Finally, the xml data is read by the search function which returns the first index of a word if it is found, and -1 if it is not.</p>
+    <p class="para">That's all! Hopefully I'll have more stuff to post soon.</p>
+
+        
+    <!-- TemplateEndEditable --></div>
+    
+    <div id="rightnav"><!-- TemplateBeginEditable name="LatestNews" -->
+    
+      <h3><a href="../blog.html">Learning Python!</a></h3>
+      
+      <p1 class="date">July 11, 2012</p1>
+      
+      <p>Twitter key phrase finder</p>
+      
+      <h3><a href="../404.html">Website Revamp</a></h3>
+      
+      <p1 class="date">July 13, 2012</p1>
+      
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean venenatis aliquam consectetur. Cras faucibus nisi eget ante porttitor lobortis quis a augue. Etiam adipiscing nunc magna, et fringilla sem.</p>
+
+    <!-- TemplateEndEditable --></div>
+
+	<div id="footer">
+   	  <p class="footer-text">© 2012 Connor Yamada</p>
+    </div>
+</div>
+</div>
+
+    
+</body>
+</html>

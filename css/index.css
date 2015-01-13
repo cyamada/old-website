@@ -1,0 +1,149 @@
+
+
+
+/* Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Global */
+
+html	{	}
+body	{ background-color:#333; }
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 { font-weight:bold; }
+
+h1	{ font-size:56px; padding-bottom:9px; text-align:center; margin-bottom:3px; 
+		font-family:Arial, Helvetica, sans-serif; }
+h2	{ font-size:26px; margin-bottom:15px; }
+h3 	{ font-size:26px; font-family:Arial, Helvetica, sans-serif; }
+
+
+/* Text Elements */
+
+p			{ color:#000; font-size:12px; }
+
+p .left		{	}
+p .right	{	}
+
+a				{	}
+a:link			{ color: #00f; text-decoration:none; }
+a:visited		{ color: #999; text-decoration:none; }
+a:active		{ color: #000; }
+a:focus			{ color: #666; }
+a:hover			{ color: #f00; }
+
+/* Images */
+
+
+
+/* Containers */
+
+#outer				{ width:1345px; margin:0 auto; background-color:#FFF; }
+
+#wrapper			{ width:1280px; margin:0 auto; background-color:#FFF;  }
+
+#logo				{ float:left; margin-top:15px; margin-bottom:9px;	}
+
+#media-icons			{ float:right;  }
+#media-icons ul li		{ display:inline; }
+#media-icons ul 		{ margin-top:39px; }
+#media-icons ul li a	{ margin-left:11px; }
+
+#topnav				{ clear:both; font-family:"Times New Roman", Times, serif; }
+#topnav ul			{ border-top:2px #000 solid; border-bottom:2px #000 solid;
+						margin:9px 0; padding:2px 0; font-size:18px; }
+#topnav ul li		{ display:inline; }
+#topnav ul li a		{ padding:0px 42px; }
+
+#topnav	a:link			{ color: #000; }
+#topnav	a:visited		{ color: #000; }
+#topnav	a:active		{ color: #000; }
+#topnav	a:focus			{ color: #666; }
+#topnav	a:hover			{ color: #900; }
+
+#banner				{ margin-bottom: 16px; }
+
+#s3slider			{ margin-bottom: 16px; }
+#s3slider a			{ font-family:Arial, Helvetica, sans-serif; font-size:50px; }
+#s3slider a:link	{ color:#900; }
+#s3slider a:visited { color:#900; }
+#s3slider a:hover	{ color:#999; }
+
+#dropdown			{ padding-bottom:16px; font-family:Arial, Helvetica, sans-serif; font-size:20px; }
+
+#content			{ width:1010; float:left; }
+#content p			{ font-size:20px; margin-bottom:40px; }
+
+#content-fullwidth	{ width:100%; float:left; margin-top:10px; }
+#content-fullwidth p	{ margin-bottom:40px;}
+#content-cv			{ width:100%; }
+#content-cv p		{ 	}
+
+#rightnav			{ width:230; float:right; font-family:Arial, Helvetica, sans-serif; padding-top:13px; }
+#rightnav p			{ font-family:Arial, Helvetica, sans-serif; font-size:16px; padding-bottom:10px; line-height:150%; padding-top:5px; }
+#rightnav p1		{ font-family:Arial, Helvetica, sans-serif; font-size:18px; padding-bottom:10px; line-height:150%; }
+
+#rightnav h			{ 	}
+#rightnav a			{ font-family:Arial, Helvetica, sans-serif; }
+#rightnav a:link		{ color:#666; }
+#rightnav a:visited		{ color:#666;	}
+#rightnav a:active		{	}
+#rightnav a:focus		{	}
+#rightnav a:hover		{ color:#900; }
+
+
+#footer				{ clear:both; padding-top:10px; border-top:1px #ccc solid; padding-bottom:10px; }
+
+/* Miscellaneous */
+
+.footer-text		{ font-size:12px; font-style:normal; color:#000; text-align:center; }
+
+.about				{ font-size:18px; font-family:Arial, Helvetica, sans-serif; }
+
+.blogtitle			{ font-size:26px; padding-top:10px; }
+
+.date				{ font-family:Arial, Helvetica, sans-serif; font-size:20px; padding-bottom:12px; font-weight:bold; }

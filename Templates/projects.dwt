@@ -1,0 +1,156 @@
+<html>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Connor Yamada</title>
+<!-- TemplateEndEditable -->
+<head>
+	<link rel="Shortcut icon" href="../images/Untitled-1.ico" />
+	<script type="text/javascript" src="../js/jquery-1.7.2.js"></script>
+<!--    <script type="text/javascript" src="../js/s3Slider.js"></script>
+-->
+    <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../js/jquery.eislideshow.js"></script>
+    
+	<script type="text/javascript">
+            $(function() {
+                $('#ei-slider').eislideshow({
+					easing		: 'easeOutExpo',
+					titleeasing	: 'easeOutExpo',
+					titlespeed	: 1200
+                });
+            });
+        </script>
+    
+    <link href="../css/index.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="../css/eiSlider/eIStyle.css" rel="stylesheet" type="text/css" media="screen">
+    
+    <noscript>
+    	<link href="../css/eiSlider/noscript.css" rel="stylesheet" type="text/css" />
+    </noscript>
+    
+    
+    
+
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div id="outer">
+<div id="wrapper">
+	
+    <div id="logo">
+    	<img src="../images/Logo.jpg" />
+    </div>
+
+	<div id="media-icons">
+    	<ul>
+        	<li><a href="http://www.linkedin.com/pub/connor-yamada/43/489/b14"><img src="../images/icons/linkedin_32.png" /></a></li>
+            <li><a href="http://www.youtube.com/iconicfx"><img src="../images/icons/Youtube_32x32.png" /></a></li>
+            <li><a href="https://twitter.com/#!/connoryamada"><img src="../images/icons/Twitter-icon.png" /></a></li>
+            <li><a href="https://www.facebook.com/cayamada"><img src="../images/icons/FaceBook_32x32.png" /></a></li>
+            <li><a href="https://vimeo.com/cayamada"><img src="../images/icons/vimeo_32.png" /></a></li>
+            <li><a href="http://www.flickr.com/photos/ckyamada"><img src="../images/icons/Flickr-32.png" /></a></li>  
+      </ul>
+    </div>
+    
+    <div id="topnav">
+    	<ul>
+        	<li><a href="../index.html">HOME</a></li>
+            <li><a href="../.html">RESUME</a></li>
+            <li><a href="../projects1.html">PROJECTS</a></li>
+            <li><a href="../blog/July-11-2012.html">BLOG</a></li>
+            <li><a href="../photography.html">PHOTOGRAPHY</a></li>
+            <li><a href="../cinematography.html">CINEMATOGRAPHY</a></li>
+            <li><a href="../contact.php">CONTACT</a></li>
+        </ul>
+    </div>
+<!--    
+    <div id="s3slider">
+    	
+        <ul id="s3sliderContent">
+        
+        	<li class="s3sliderImage">
+            	<img src="../images/banner" />
+            </li>
+            
+            <li class="s3sliderImage">
+            	<img src="../images/7244450804_48043a75e8_o.jpeg" />
+            </li>
+            
+            <li class="clear s3sliderImage"></li>
+        </ul>
+        
+    </div>
+-->
+
+	<div id="ei-slider" class="ei-slider"><!-- TemplateBeginEditable name="Banner" -->
+	  <ul class="ei-slider-large">
+	    <li> <img src="../images/banner/bann1.jpg" alt="image01" />
+	      <!--                <div class="ei-title">
+                	<h2>Creative</h2>
+                    <h3>Duet</h3>
+                </div>
+-->
+	    <li> <img src="../images/banner/bann2.jpg" alt="image02" /> </li>
+	    <li> <img src="../images/banner/bann3.jpg" alt="image03" /> </li>
+	    <li> <img src="../images/banner/bann4.jpg" alt="image04" /> </li>
+	    <li> <img src="../images/banner/bann5.jpg" alt="image05" /> </li>
+        -
+      </ul>
+	<!-- TemplateEndEditable --><!-- ei-slider-large -->
+        
+        <ul class="ei-slider-thumbs"><!-- TemplateBeginEditable name="Thumbs" -->
+        	<li class="ei-slider-element">Current</li>
+            <li><a href="#">Slide 1</a><img src="../images/thumbs/thumb1.jpg" alt="thumb01" /></li>
+            <li><a href="#">Slide 2</a><img src="../images/thumbs/thumb2.jpg" alt="thumb02" /></li>
+            <li><a href="#">Slide 2</a><img src="../images/thumbs/thumb3.jpg" alt="thumb03" /></li>
+            <li><a href="#">Slide 2</a><img src="../images/thumbs/thumb4.jpg" alt="thumb04" /></li>
+            <li><a href="#">Slide 2</a><img src="../images/thumbs/thumb5.jpg" alt="thumb05" /></li>
+            
+            
+            
+        </ul><!-- TemplateEndEditable --><!-- ei-slider-thumbs -->
+
+    </div><!-- ei-slider -->
+    
+    <div id="content-fullwidth"><!-- TemplateBeginEditable name="content" -->
+
+      <h1>ABOUT</h1>
+      <center>
+      <p class="about">I am First-Year Undergraduate student at the University of Vermont studying Electrical Engineering and 
+        Mathematics. I have long held interests in the fine arts and applied science. This site is dedicated to the 
+        documentation of my work, and my progress through life.</p>
+        <p>      
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="BJBCU47M42U7U">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form></p>
+      </center>
+    <!-- TemplateEndEditable --></div>
+    
+<!--
+    <div id="rightnav">
+   	  <h2>Latest Blog Posts</h2>
+        <p class="date">July 11, 2012</p>
+        <h3>Learning Python!</h3>
+        <p>Twitter key phrase finder, among other updates</p>
+        <p class="date">July 13, 2012</p>
+        <h3>Website Revamp</h3>
+        <p>lorem ipLorem ipsum dolor sit amet, consectetur adipiscing elit. In egestas congue turpis eu porta. Duis lacinia elementum pulvinar. Ut euismod lobortis ante, nec venenatis risus elementum ac.</p>
+        <p class="date">July 14, 2012</p>
+        <h3>Summer Updates</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In egestas congue turpis eu porta. Duis lacinia elementum pulvinar. Ut euismod lobortis ante, nec venenatis risus elementum ac.</p>
+    </div> <!-- end .rightnav -->
+
+	<div id="footer">
+    	<p class="footer-text">&copy; 2012 Connor Yamada</p>
+    </div> <!-- end .footer -->
+</div> <!-- end .wrapper -->
+</div> <!-- end .outer -->
+
+    
+</body>
+</html>

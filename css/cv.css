@@ -1,0 +1,63 @@
+.title {
+	font-size:24px;	
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	padding-top:8px;
+	padding-bottom:3px;
+	border-bottom:2px solid #000;
+}
+
+.head {
+	font-size:50px;
+	text-align:center;
+	font-family:"Franklin Gothic Book";
+	margin:0;
+	border-bottom:2px solid #000;
+	padding-top:30px;
+}
+
+span.position {
+	font-size:20px;
+	font-family:"Franklin Gothic Book";
+	font-weight:bold;
+	padding-bottom:3px;
+}
+
+.bod {
+	font-size:18px;
+	font-family:"Franklin Gothic Book";
+	margin:0;
+	padding-top:3px;
+	margin-bottom:1px;
+	margin-left:40px;
+	line-height:18px;
+}
+
+.loc {
+	font-size:20px;
+	font-family:"Franklin Gothic Book";
+	margin:0;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+span.date {
+	font-size:20px;
+	font-family:"Franklin Gothic Book";
+	float:right;	
+}
+
+.prof {
+	font-size:20px;	
+	font-family:"Franklin Gothic Book";
+	padding-bottom:2px;
+}
+
+.degree {
+	font-size:20px;
+	font-family:"Franklin Gothic Book";
+	font-weight:bold;
+	padding-bottom:1px;
+}
+
